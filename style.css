@@ -1,21 +1,20 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans" ,sans-serif;
 }
 
 body {
   width: 100vp;
-  -webkit-animation: loder;
+
 }
 .loader {
   background-color: #020842;
   height: 100vp;
 }
 .section1 {
-  /* border:  2px solid 
-    display: flex;solid; */
+  /* border:  2px solid */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -24,15 +23,11 @@ body {
 .logo {
   padding: 30px;
 }
-.navbar {
-  /* border:   2px solid 
-  display: flex;solid; */
-}
+
 .navbar li {
   display: inline-block;
   text-align: center;
   padding: 30px 15px;
-  /* font-size: 12px; */
 }
 .navbar a {
   font-size: 20px;
@@ -45,15 +40,9 @@ body {
 .icon {
   display: inline-block;
 }
-/* .icon li {
-    
 
-
-
-} */
 .section2 {
-  /* border:  2px solid 
-    display: flex;solid; */
+  /* border:  2px solid*/
   position: relative;
   bottom: 75px;
   z-index: -3;
@@ -61,7 +50,6 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(./img/hero-bg-2.jpg.jpeg);
-  /* padding: 40px; */
 }
 .section2 div {
   padding: 0px 10px 0px 10px;
@@ -84,12 +72,12 @@ body {
 }
 
 .section2 img {
-  /* height: 200px; */
+ 
   width: 30rem;
   height: 40rem;
 }
 
-/* section 2 shaps  */
+
 .section2-shaps {
   display: inline-block;
 }
@@ -182,23 +170,14 @@ body {
   display: flex;
 }
 .div1-img1 img {
-  /*position: absolute;
-  */
   left: 10px;
-  /* border-radius: 10px; */
   margin-left: -150px;
   margin-bottom: 400px;
-  /* -webkit-border-radius: 10px;
-  /* -moz-border-radius: 10px; */
-  /* -ms-border-radius: 10px; */
-  /* -o-border-radius: 10px; */
   height: 330px;
   margin-bottom: 100px;
-  /* -webkit-border-radius: 10px; */
+ 
 }
 .div1-img2 img {
-  /*position: absolute;
-  */
   left: 200px;
   height: 370px;
   width: 250px;
@@ -214,8 +193,6 @@ body {
 }
 .databox {
   display: inline-block;
-  /* align-items: center; */
-  /* border: 2px solid; */
   height: 120px;
   position: absolute;
   top: 1170px;
@@ -247,7 +224,6 @@ p {
 .div-first p {
   background-color: rgba(241, 102, 62, 0.1);
   display: inline-block;
-  /* justify-content: center; */
   text-align: center;
   padding-top: 10px;
   margin-left: 20px;
@@ -317,7 +293,6 @@ hr {
 }
 .div2btn a button p {
   color: white;
-  /* text-align: center; */
   font-weight: bold;
   margin: 0px 80px 0px 6px;
 }
@@ -337,7 +312,6 @@ hr {
   left: -100px;
   top: 30px;
   background-color: white;
-  /* border: 2px solid black; */
   height: 45px;
   margin: 2px 0px 0px 50px;
   width: 45px;
@@ -366,7 +340,6 @@ p {
 }
 
 .section4 {
-  /* border:  2px solid; */
   height: 320px;
   background-color: #fef1ee;
   display: flex;
@@ -383,13 +356,10 @@ p {
 }
 
 .section5 {
-  /* border: 2px solid; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 .section5 p {
-  /* border: 2px solid; */
   margin-top: 100px;
   width: 100px;
   height: 30px;
@@ -408,18 +378,12 @@ p {
 }
 
 .section5-div2 {
+/* border: 2px solid; */
   display: flex;
-  /* border: 2px solid; */
   justify-content: space-evenly;
-  /*gap: 100px;
-  */ /*padding-left: 50px;
-  */
 }
 .section5-div2 div {
-  /*border: 2px solid;
-  
-  */
-
+  /*border: 2px solid;*/
   width: 600px;
   height: 450px;
   box-shadow: 11px 15px 79.9px 48px rgba(10, 6, 68, 0.05);
